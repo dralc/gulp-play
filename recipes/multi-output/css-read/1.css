@@ -1,0 +1,17 @@
+@keyframes pulse {
+  from {
+    transform: scale(1) translateX(0);
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.05;
+  }
+  to {
+    transform: scale(.25) translateX(0);
+    opacity: 1;
+  }
+}
+
+.my-anim-class {
+  animation: pulse 1s infinite;
+}
