@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var browsersync = require('browser-sync');
 var reload = browsersync.reload;
 
-gulp.task('serve', function () {
+gulp.task('serveit', function () {
     browsersync({
         server: {baseDir: 'serve'}
     });
